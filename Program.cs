@@ -14,8 +14,9 @@ try
     mac_dinh = 0;
 
     int real_time;
+    Console.Write("Nhap thoi gian delay: ");
     int thoi_gian = Convert.ToInt32(Console.ReadLine());
-    real_time = thoi_gian * 10;
+    real_time = thoi_gian * 1;
 
 
 
